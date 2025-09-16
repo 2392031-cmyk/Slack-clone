@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal scrollbar */
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { border-radius: 8px; background: rgba(100,100,100,0.4); }
+*::-webkit-scrollbar-track { background: transparent; }
+
+html, body, #root { height: 100%; }
